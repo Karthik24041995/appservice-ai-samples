@@ -1,0 +1,13 @@
+name: fastapi-openai-app
+metadata:
+  template: fastapi-openai-template
+infra:
+  provider: bicep
+  path: ./infra/main.bicep
+
+services:
+  web:
+    project: .
+    language: python
+    host: appservice
+    module: web
