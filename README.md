@@ -1,57 +1,16 @@
-# Project Name
 
-(short, 1-3 sentenced, description of the project)
+# App Service AI Samples
 
-## Features
+This repository contains sample projects, primarily written in Python, that demonstrate how to build and deploy AI applications on Azure App Service. Each sample is designed to showcase best practices for integrating AI capabilities and deploying scalable web apps to Azure.
 
-This project framework provides the following features:
+## Sample Projects
 
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [repository name]
-3. ...
-
-
-## Demo
-
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
+- **langchain-fastapi-chat**: A FastAPI web app using LangChain and Azure OpenAI (gpt-4o) for conversational AI, featuring streaming responses and summaries. Includes Bicep templates for easy deployment to App Service.
 
 ## Resources
 
-(Any additional resources or related projects)
+Useful documentation and related resources:
 
-- Link to supporting information
-- Link to similar sample
-- ...
+- [Azure App Service Documentation](https://learn.microsoft.com/en-us/azure/app-service/)
+- [Python Quickstart for Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/quickstart-python)
+- [AI Integration with Azure App Service](https://learn.microsoft.com/en-us/azure/app-service/overview-ai-integration)
