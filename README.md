@@ -5,7 +5,7 @@ This repository contains sample projects, primarily written in Python, that demo
 
 ## Sample Projects
 
-- **langchain-fastapi-chat**: A FastAPI web app using LangChain and Azure OpenAI (gpt-4o) for conversational AI, featuring streaming responses and summaries. Includes Bicep templates for easy deployment to App Service.
+- [**langchain-fastapi-chat**](https://github.com/Azure-Samples/appservice-ai-samples/tree/main/langchain-fastapi-chat): A FastAPI web app using LangChain and Azure OpenAI (gpt-4o) for conversational AI, featuring streaming responses and summaries. Includes Bicep templates for easy deployment to App Service.
 
 ## Resources
 
