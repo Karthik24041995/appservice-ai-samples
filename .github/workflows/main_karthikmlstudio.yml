@@ -55,8 +55,11 @@ jobs:
 
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v3
-        id: deploy-to-webapp
         with:
           app-name: 'KarthikMLstudio'
-          slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9CC9CC5D8EC8402A9B335C42DD0DAAAC }}
+          package: .
+          deployment-method: zipDeploy
+
+
+
